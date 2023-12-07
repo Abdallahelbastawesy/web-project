@@ -1,0 +1,259 @@
+ul {
+    list-style: none;
+    position: absolute;
+    color: #FFCC00;
+    top: 2px;
+    left: 200px;
+    font-size: 20px;
+    background-color: black;
+
+}
+
+ul li {
+    text-indent: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header .navbar ul li {
+    position: relative;
+    float: right;
+}
+
+header {
+    position: relative;
+    padding: 33px;
+    background-color: black;
+
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+
+#sq {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 13px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 185px;
+}
+
+#name {
+    position: absolute;
+    left: 970px;
+    font-size: 25px;
+}
+
+#info {
+    top: 3px;
+    left: 250px;
+    word-spacing: 5px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+#logo {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+}
+
+#but {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 20px;
+    left: 14px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: white;
+}
+
+#shr {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 4px;
+    left: 2px;
+
+}
+
+#maintitle {
+    text-align: center;
+    color: #FFCC00;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+#items {
+    
+    color: #FFCC00;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 15px;
+    margin: 20px;
+
+
+
+}
+
+#sport {
+    height: 325px;
+    width: 255px;
+    position: absolute;
+    left: -10px;
+    top: 100px;
+    padding: 10px;
+    margin: 20px; 
+
+    
+}
+
+#reg {
+    position: absolute;
+    right: 680px;
+    top: 100px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+#art {
+    position: absolute;
+    right: 340px;
+    top: 100px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+   
+}
+
+#self {
+    position: absolute;
+    right: -10px;
+    top: 100px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+#health {
+    position: absolute;
+    top: 500px;
+    left: -10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+#books {
+    position: absolute;
+    top: 500px;
+    right: 680px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+#pro {
+    position: absolute;
+    top: 500px;
+    right: 340px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+#thing {
+    position: absolute;
+    top: 500px;
+    right: -10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+#pp {
+    size: 2000px;
+}
+
+#pic {
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    opacity: 50%;
+
+
+}
+
+.fa-solid {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-weight: bold;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#r {
+    right: 100px;
+}
+
+#a {
+    left: 100px;
+}
+
+#s {
+    left: 90px;
+}
+
+#b {
+    left: 90px;
+}
+
+a  {
+    color: #FFCC00;
+    text-decoration: none;
+
+}
+
+header .navbar ul li:hover a {
+    color: rgb(140, 0, 255);
+
+}
+
+
+#art :hover , #pro :hover , #health :hover ,#books :hover , #reg :hover , #thing :hover , #self :hover , #sport :hover {
+    opacity: 120%;
+    
+}
+
